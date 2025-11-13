@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://asociacionalap.org/$1",
+      "permanent": true
+    }
+  ]
+}
