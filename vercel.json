@@ -1,9 +1,9 @@
 {
-  "redirects": [
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
     {
-      "source": "/(.*)",
-      "destination": "https://asociacionalap.org/$1",
-      "permanent": true
+      "source": "/:path*",
+      "destination": "http://pay.boardlatinoamericanodeperfusion.com/:path*"
     }
   ]
 }
